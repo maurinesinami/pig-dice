@@ -1,11 +1,11 @@
 # pig-dice
-#### Description
+# Description
 
 _This web application allows two players to play a game of Pig Dice._
 
 #### By Maurine Sinami
 
-## Specs
+# Specs
 
 | Behavior                                                                         |                      Input                      |                                             Outcome |
 | -------------------------------------------------------------------------------- | :---------------------------------------------: | --------------------------------------------------: |
@@ -15,10 +15,10 @@ _This web application allows two players to play a game of Pig Dice._
 | If Player 1 rolls a 1, no score is added and round for Player 1 ends             |                    Roll = 1                     | Round total = 2 / Total score = 2 / Player 2 begins |
 | Repeat for Player 2                                                              |                    Roll = 1                     | Round total = 0 / Total score = 0 / Player 1 begins |
 | When a player's total score reaches 100 or more, game ends and winner page shows |           Player 1 total score = 100            |                                         Winner page |
-## Known bugs
+# Known bugs
 
 There are no known bugs.
-## Setup/Installation Requirements
+# Setup/Installation Requirements
 
 - _Clone this repository_
 - _Open a HTML file_
@@ -27,17 +27,17 @@ There are no known bugs.
 - https://github.com/maurinesinami/pig-dice/index.html
 - maurinesinami.github.io/pig-dice
 
-## Technologies Used
+# Technologies Used
 
 - _HTML_
 - _CSS_
 - _Bootstrap_
 - _JavaScript_
 - _jQuery_
-## contact
+# contact
 Incase of any queries contact me at 0700151874
 Email address:maurine.sinami@gmail.com
-### License
+# License
 
 _This software is licensed under the MIT license._
 
