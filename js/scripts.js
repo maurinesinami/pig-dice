@@ -1,17 +1,17 @@
 $("input:text").ready(function () {
     $("#START").click(() => {
         var nameOne = $("input:text#player1name").val();
-        $("#player1").text("PLAYER ONE: " + nameOne);
+        $("#player1name").text("PLAYER 1 NAME " + nameOne);
 
         var nameTwo = $("input:text#player2name").val();
-        $("#player2").text("PLAYER TWO: " + nameTwo);
+        $("#player2name").text("PLAYER 2 NAME: " + nameTwo);
     });
 });
-var playerOne1 = []
-var playerTwo2 = []
+
 var round1Total = 0
 var round2Total = 0
-
+var totalScore1 = 0
+var totalScore2 = 0
 
 
 
@@ -42,3 +42,6 @@ $(document).ready(function () {
           }
         });
     });
+    $ (document).ready (function(){
+      
+    }
