@@ -1,9 +1,9 @@
-$("input:text#playerOne").ready(function () {
+$("input:text").ready(function () {
     $("#START").click(() => {
-        var nameOne = $("input:text#playerOne").val();
+        var nameOne = $("input:text#player1name").val();
         $("#player1").text("PLAYER ONE: " + nameOne);
 
-        var nameTwo = $("input:text#playerTwo").val();
+        var nameTwo = $("input:text#player2name").val();
         $("#player2").text("PLAYER TWO: " + nameTwo);
     });
 });
@@ -28,18 +28,17 @@ $(document).ready(function () {
           }
         });
     });
-});
+
 $(document).ready(function () {
     $("#player2-roll").click(() => {
         var randomNO2 = Math.floor((Math.random() * 6) + 1)
         $("#die-roll-2").text(randomNO2);
         if (random2 === 1) {
             round2Total = 0;
-            $("#round-total-2").text("R: " + round2Total);
+            $("#round-total-2").text("Round total: " + round2Total);
           } else {
             round2Total = random2 + round2Total;
             $("#round-total-2").text("Round total: " + round2Total);
           }
         });
     });
-});
