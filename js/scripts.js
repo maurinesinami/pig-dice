@@ -24,12 +24,19 @@ $(document).ready(function () {
     if (randomNO1 === 1) {
       round1Total = 0;
       $("#round-total-1").text( ""+round1Total);
+<<<<<<< HEAD
       
+=======
+>>>>>>> 5f6f9e8ca896a333b725dbfde277126bdc653a4d
       $("#player1-roll").hide();
       
       $("#player2-roll").show();
       $("#player2-hold").show();
+<<<<<<< HEAD
       alert("O u c h!! no score, you rolled a 1!");
+=======
+      
+>>>>>>> 5f6f9e8ca896a333b725dbfde277126bdc653a4d
 
     } else {
       round1Total = randomNO1 + round1Total;
@@ -45,12 +52,18 @@ $(document).ready(function () {
     if (randomNO2 === 1) {
       round2Total = 0;
       $("#round-total-2").text( ""+round2Total);
+<<<<<<< HEAD
       
+=======
+>>>>>>> 5f6f9e8ca896a333b725dbfde277126bdc653a4d
       $("#player2-roll").hide();
       
       $("#player1-roll").show();
       $("#player1-hold").show();
+<<<<<<< HEAD
       alert("O u c h!! no score, you rolled a 1!");
+=======
+>>>>>>> 5f6f9e8ca896a333b725dbfde277126bdc653a4d
     } else {
       round2Total = randomNO2 + round2Total;
       $("#round-total-2").text( ""+round2Total);
