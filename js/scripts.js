@@ -24,11 +24,12 @@ $(document).ready(function () {
     if (randomNO1 === 1) {
       round1Total = 0;
       $("#round-total-1").text( ""+round1Total);
+      
       $("#player1-roll").hide();
       
       $("#player2-roll").show();
       $("#player2-hold").show();
-      
+      alert("O u c h!! no score, you rolled a 1!");
 
     } else {
       round1Total = randomNO1 + round1Total;
@@ -44,10 +45,12 @@ $(document).ready(function () {
     if (randomNO2 === 1) {
       round2Total = 0;
       $("#round-total-2").text( ""+round2Total);
+      
       $("#player2-roll").hide();
       
       $("#player1-roll").show();
       $("#player1-hold").show();
+      alert("O u c h!! no score, you rolled a 1!");
     } else {
       round2Total = randomNO2 + round2Total;
       $("#round-total-2").text( ""+round2Total);
