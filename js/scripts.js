@@ -2,10 +2,10 @@
 $("input:text").ready(function () {
   $("#START").click(() => {
     var nameOne = $("input:text#player1name").val();
-    $("#player1name").text(" " + nameOne);
+    $("#player1").text(" " + nameOne);
 
     var nameTwo = $("input:text#player2name").val();
-    $("#player2name").text(" " + nameTwo);
+    $("#player2").text(" " + nameTwo);
   });
 });
 
